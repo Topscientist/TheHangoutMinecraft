@@ -3,6 +3,7 @@
 set -e
 root=$PWD
 mkdir -p mc
+cd mc
 
 download() {
     set -e
@@ -89,7 +90,6 @@ echo "Starting ngrok tunnel in region $ngrok_region"
 ./ngrok authtoken $ngrok_token
 touch logs/ngrok.log
 ./ngrok tcp -region $ngrok_region --log=stdout 1025 > ./logs/ngrok.log &
-# wait for started tunnel message, and print each line of file as it is written
 tail -f ./logs/ngrok.log | sed '/started tunnel/ q'
 orig_server_ip=`curl --silent http://127.0.0.1:4040/api/tunnels | jq '.tunnels[0].public_url'`
 trimmed_server_ip=`echo $orig_server_ip | grep -o '[a-zA-Z0-9.]*\.ngrok.io[0-9:]*'`
