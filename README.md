@@ -23,7 +23,7 @@ It is hosted on 2 servers one of which is in London, England and another one is 
 
 **IP Address?**
 
-The IP is 4.tcp.eu.ngrok.io:12347
+The IP is play.socialcabin.co.uk
 
 
 
