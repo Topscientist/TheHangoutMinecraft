@@ -1,4 +1,9 @@
-# TheHangoutMinecraft
+### IMPORTANT NOTE:
+This GitHub is now acrhived and no-longer updated as the minecraft server has gone closed-source.
+The cintact lines listed here still remain open and the IP address listed here does still work to connect to the server.
+
+
+# TheHangoutMinecraft - ARCHIVED
 The Minecraft Server Backup For The Discord Server, The Hangout! Check the description for more details!
 
 
@@ -29,7 +34,7 @@ The IP is play.socialcabin.co.uk
 
 **Does It Have A Status Page?**
 
-Yes! The Hangout Minecraft does have a status page that can be found at https://stats.uptimerobot.com/rVzDJuAZkN/789522079.
+No... It no longer has a status page, but one may be listed soon!
 
 
 
